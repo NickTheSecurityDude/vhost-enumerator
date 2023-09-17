@@ -47,7 +47,7 @@ portfolio 200 30268
 4988
 ```
 
-For comparison, GoBuster does not find this as valid subdomain, but rather as a redirect:
+For comparison, GoBuster does not find portfolio as valid subdomain, but rather as a redirect:
 ```
 ┌──(kali㉿kali)-[~/htb/machines/stacked]
 └─$ cat gobuster.vhost.out|grep "Status: 200"
