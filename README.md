@@ -19,7 +19,7 @@ cat vhosts-out.txt | awk '$2 != 302'
 cat vhosts-out.txt |awk '$3 > 350'
 ```
 
-Sample output:
+Sample output, portfolio is the only expected valid 200:
 ```
                                                                                                                             
 ┌──(kali㉿kali)-[~/htb/tools/nicks-vhost-enumerator]
