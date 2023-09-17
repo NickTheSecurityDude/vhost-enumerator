@@ -4,6 +4,7 @@ RedTeam Tool: Basic Subdomain Enumerator for vhosts
 I noticed some "false negatives" with GoBuster, so I created this basic vhost enumerator, which picked up a valid vhost which GoBuster missed.
 
 Sample execution:
+
 ```
 ./find_vhosts.sh http stacked.htb /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt >vhosts-out.txt
 # once you have vhosts-out.txt you can look for anomolies, like this:
